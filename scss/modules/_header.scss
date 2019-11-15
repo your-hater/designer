@@ -1,0 +1,84 @@
+.header{
+    background: url(../images/header-bg-pc.png)no-repeat left center  ;
+    background-size: cover;
+    
+    height: 100vh;
+    
+    left:0;
+    top:0;
+    position: relative;
+    
+    &__title__black{
+        color: #402F42;
+    }
+
+    &-button{
+        position: absolute;
+        top:20px;
+        left:550px;
+    }
+    
+    .se{
+        margin-left:380px;
+        width:166px;
+        height:58px;
+        padding-top: 44px;
+        
+        
+    }
+    &__menu{
+        position: absolute;
+        display:flex;
+        left:657px;
+        top:43px;
+        .about{
+            margin-right: 100px;
+        }
+
+        .prod{
+            margin-right: 100px;
+        }
+        .cont{
+            margin-right: 100px;
+        }
+    }
+   
+
+    &__title{
+        position: absolute;
+        width: 648px;
+        height: 160px;
+        left: 582px;
+        top: 164px;
+        
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 73px;     
+    }
+
+
+    &__info{
+        position: absolute;
+        width: 661px;
+        height: 68px;
+        left: 582px;
+        top: 361px;
+
+        font-family: $roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .offer{
+        text-decoration: none;
+        color:var(--white);
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+    }
+
+}
